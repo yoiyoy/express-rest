@@ -1,0 +1,33 @@
+{
+  "name": "express-rest",
+  "version": "0.1.0",
+  "description": "mongoDB(mongoose)를 사용한 express api 서버",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon server/src/app.js --exec babel-node",
+    "test": "cross-env NODE_ENV=development mocha -t 3000 --require babel-register server/tests"
+  },
+  "author": "yoiyoy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "httperrors": "^2.1.0",
+    "i": "^0.3.5",
+    "mongoose": "^4.7.7",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.7.0",
+    "npm": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
