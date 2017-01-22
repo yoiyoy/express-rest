@@ -23,7 +23,7 @@ coverage
 .grunt
 
 # dotenv configuration
-# .env_*
+.env_*
 
 # node-waf configuration
 .lock-wscript
