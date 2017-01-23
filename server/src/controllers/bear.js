@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import express from 'express';
 import httperrors from 'httperrors';
-import hideProps from '../util/hideProps';
 
 const router = express.Router();
 const Bear = mongoose.model('Bear');
